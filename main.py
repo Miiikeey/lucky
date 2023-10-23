@@ -11,4 +11,3 @@ for line in lines:
         fields = line.split("=")
         key_value_ini[fields[0]]= fields[1] 
 print(key_value_ini)
-test sync
