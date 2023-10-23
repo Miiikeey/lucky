@@ -9,4 +9,5 @@ key_value_ini = dict()
 for line in lines:
     if "=" in line:
         fields = line.split("=")
-        key_value_ini[fields[0]]= fields[1]
+        key_value_ini[fields[0]]= fields[1] 
+print(key_value_ini)
