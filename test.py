@@ -1,6 +1,6 @@
 
 # read the txt file 
-with open("mydefaults.ini.txt") as ini_file:
+with open("ini.txt") as ini_file:
     data = ini_file.read()
 
 lines = data.split("\n")
